@@ -1,0 +1,253 @@
+@media(max-width:768px) {
+    /* Left */
+    .Left {
+        width: 100%;
+        height: calc(100% - 70px);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        margin-left: -100%;
+        z-index: 99999;
+    }
+    .active {
+        margin-left: 0;
+    }
+    .Right {
+        margin-left: 0;
+    }
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container.classAdd {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .overflow {
+        overflow: hidden;
+    }
+    /* Left */
+    /* Start - Img info */
+    .info .img .boxImage:before {
+        left: 280px;
+    }
+    .info .img .boxImage:after {
+        right: 280px;
+    }
+    /* End - Img info*/
+}
+
+
+/* Start - Media 767px */
+
+@media(max-width:767px) {
+    /* Start img info */
+    .info .img .boxImage:before {
+        width: 80px;
+        height: 80px;
+        left: 110px;
+        top: 15px;
+    }
+    .info .img .boxImage:after {
+        width: 80px;
+        height: 80px;
+        right: 110px;
+        bottom: 15px;
+    }
+    .info .img .boxImage img {
+        width: 100px;
+        height: 100px;
+    }
+    .info .img {
+        height: 150px;
+    }
+    .info .img .boxImage {
+        height: 150px;
+    }
+    /* End img info */
+    /* Start - Links */
+    .Links .boxLinks ul li a {
+        padding: 0;
+    }
+    /* End - Links */
+    /*Start - img About */
+    .about .container {
+        flex-direction: column;
+    }
+    .about .boxAbout p {
+        font-size: 30px;
+    }
+    /*End - img About */
+}
+
+
+/* End - Media 767px */
+
+
+/*Start - Media 411px */
+
+@media(min-width:410px) and (max-width:411px) {
+    .info .img .boxImage:before {
+        left: 130px;
+        top: 20px;
+    }
+    .info .img .boxImage:after {
+        right: 130px;
+        bottom: 10px;
+    }
+    .footer {
+        height: 130px;
+        align-items: flex-end;
+    }
+}
+
+
+/*End - Media 411px */
+
+
+/* Start - Media 320px */
+
+@media(min-width:319px) and (max-width:320px) {
+    .info .img .boxImage:before {
+        left: 85px;
+        top: 15px;
+    }
+    .info .img .boxImage:after {
+        right: 85px;
+        bottom: 15px;
+    }
+    .Links {
+        height: 250px;
+    }
+    .footer {
+        height: 100px;
+        align-items: flex-start;
+    }
+}
+
+
+/* End - Media 320px */
+
+
+/* Start - Media 414px */
+
+@media(min-width:413px) and (max-width:414px) {
+    .info .img .boxImage:before {
+        left: 130px;
+        top: 15px;
+    }
+    .info .img .boxImage:after {
+        right: 130px;
+        bottom: 15px;
+    }
+    .Links {
+        height: 300px;
+    }
+    .footer {
+        height: 100px;
+        align-items: flex-end;
+    }
+}
+
+
+/* End - Media 414px */
+
+
+/* Start - Media 375px */
+
+@media(min-width:374px) and (max-width:375px) {
+    .info .img .boxImage:before {
+        left: 110px;
+        top: 15px;
+    }
+    .info .img .boxImage:after {
+        right: 110px;
+        bottom: 15px;
+    }
+    .Links {
+        height: 300px;
+    }
+    .footer {
+        height: 70px;
+        align-items: flex-end;
+    }
+}
+
+
+/* End - Media 375px */
+
+
+/* Start - Media 768px */
+
+@media(min-width:767px) and (max-width:768px) {
+    .info .img .boxImage:before {
+        width: 130px;
+        height: 130px;
+        left: 260px;
+        top: 10px;
+    }
+    .info .img .boxImage:after {
+        width: 130px;
+        height: 130px;
+        right: 260px;
+        bottom: 0px;
+    }
+    .Links {
+        height: 470px;
+    }
+    .footer {
+        height: 200px;
+        align-items: flex-end;
+    }
+}
+
+
+/* End - Media 768px */
+
+
+/* Start - Media 540px */
+
+@media(min-width:539px) and (max-width:540px) {
+    .info .img .boxImage:before {
+        left: 190px;
+        top: 10px;
+    }
+    .info .img .boxImage:after {
+        right: 190px;
+        bottom: 10px;
+    }
+    .Links {
+        height: 300px;
+    }
+    .footer {
+        height: 120px;
+        align-items: flex-end;
+    }
+}
+
+
+/* End - Media 540px */
+
+
+/* Start - Media 280px */
+
+@media(min-width:279px) and (max-width:280px) {
+    .info .img .boxImage:before {
+        left: 70px;
+        top: 10px;
+    }
+    .info .img .boxImage:after {
+        right: 70px;
+        bottom: 10px;
+    }
+    .footer {
+        height: 60px;
+        align-items: flex-end;
+    }
+    .about .boxAbout p {
+        font-size: 25px;
+    }
+}
+
+
+/* End - Media 280px */
